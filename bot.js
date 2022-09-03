@@ -4,6 +4,7 @@ const client = new Discord.Client();
 const config = require("./config.json");
 const mySecret = process.env['BOT_TOCEN']
 
+bot.login(process.env.BOT_TOKEN)
 
 var canalbot = 'бот-чат'
 
